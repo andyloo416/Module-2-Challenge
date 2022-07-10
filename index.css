@@ -1,0 +1,57 @@
+
+:root {
+    --darkBlue: rgb(5, 5, 95);
+    --lightBlue: rgb(81, 142, 217);
+    --lightGreen: rgb(138, 234, 215);
+}
+
+* {
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#top {
+    height: 100px;
+    background-color: var(--darkBlue);
+}
+
+#title {
+    height: 50px;
+    padding: 5px 5px 0px 50px;
+    background-color: var(--lightBlue);
+    float: left;
+}
+
+nav {
+    float: right;
+    position: relative;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    font-size: large;
+    margin: 30px;
+    padding: 5px;
+    color: var(--lightBlue);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}

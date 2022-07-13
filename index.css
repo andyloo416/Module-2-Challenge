@@ -9,8 +9,23 @@
     font-family: 'Abel', sans-serif;
 }
 
+li:hover {
+    cursor: pointer;
+}
+
+li {
+    margin: 10px;
+}
+
 h1 {
     font-weight: bold;
+}
+
+#sub {
+    float: right;
+    position: relative;
+    margin-top: -50px;
+    color: var(--lightBlue);
 }
 
 #top {
@@ -46,12 +61,110 @@ li {
 }
 
 nav {
+    height: 100px;
     display: flex;
     justify-content: flex-start;
 }
 
-img {
+#hk {
     width: 100%;
     height: 400px;
     margin: 0px;
+    object-fit: cover;
 }
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    margin: 0 0 10px 0px; 
+}
+
+.arti {
+    display: flex;
+    justify-content: center;
+}
+
+.para {
+    margin-bottom: 50px;
+    border-left: 5px solid var(--darkBlue);
+}
+
+.title {
+    width: 80px;
+    text-align: right;
+    word-break: break-word;
+    color: var(--darkBlue);
+    padding: 0px;
+    margin: 0px 5px 0px 0px;
+}
+
+.para {
+    width: 600px;
+    padding: 0px 30px 30px 30px;
+    color: var(--lightBlue);
+}
+
+p {
+    margin: 0px 0px 10px 0px;
+}
+
+.work-cat {
+    height: 300px;
+    border: 10px solid var(--lightGreen);
+}
+
+h2 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+#cat {
+    position: relative;
+    bottom: 150px;
+    height: 70px;
+    padding: 5px 5px 0px 50px;
+    background-color: var(--lightGreen);
+    float: left;
+}
+
+.work-other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%
+}
+
+.other{
+    width:min-content
+}
+.other-img {
+    float: left;
+    display: flex;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    margin: 10px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    height: 200px;
+    width: 250px;
+    border: 10px solid var(--lightGreen);
+}
+
+.other-p {
+    float: left;
+    position: relative;
+    margin-top: 60px;
+    margin-left: -270px;
+    bottom: -50px;
+    height: 70px;
+    text-align: center;
+    padding: 5px 5px 0px 20px;
+    background-color: var(--lightGreen);
+}
+

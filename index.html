@@ -21,48 +21,99 @@
 
       <nav>
         <ul>
-          <li type="none">About Me</li>
-          <li type="none">Work</li>
-          <li type="none">Contact Me</li>
+          <li type="none"><a href="#about-me">About Me</a></li>
+          <li type="none"><a href="#work">Work</a></li>
+          <li type="none"><a href="#contact-me">Contact Me</a></li>
           <li type="none">Resume</li>
         </ul>
       </nav>
     </div>
 
-    <img src="HK.jpg" alt="Hong Kong" />
-    <h2>Cool subtitle here!</h2>
+    <img id="hk" src="HK.jpg" alt="Hong Kong" />
+    <h2 id="sub">Cool subtitle here!</h2>
     <section>
-      <div id="about-me">
-        <h1>About Me</h1>
-        <p>
-          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch
-          Etsy authentic Marfa quinoa typewriter plaid direct trade small batch
-          wayfarers bicycle rights cliche craft beer gastropub single-origin
-          coffee Godard Carles you probably haven't heard of them irony pickled
-          kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo
-          scenester
-        </p>
-        <br />
-        <p>
-          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone
-          Kickstarter Cares crucifix kitsch narwhal dreamcatcher pickled trust
-          fund selvage art party letterpress Tumblr post-ironic kogi Thundercats
-          Tonx Brooklyn Pitchfork Odd Future authentic normcore freegan leggings
-          Schlitz chambray organic tousled retro fap squid street art church-key
-          fashion axe Wes Anderson bespoke whatever gentrify banh mi you
-          probably haven't heard of them American Apparel next level pug ugh.
-        </p>
-      </div>
-      <div id="work">
-        <h1>Work</h1>
+      <div>
+        <div id="about-me" class="arti">
+          <h1 class="title">About Me</h1>
+          <div class="para">
+            <p>
+              Helvetica put a bird on it church-key Blue Bottle banjo bespoke
+              brunch Etsy authentic Marfa quinoa typewriter plaid direct trade
+              small batch wayfarers bicycle rights cliche craft beer gastropub
+              single-origin coffee Godard Carles you probably haven't heard of
+              them irony pickled kitsch synth sriracha gentrify literally
+              heirloom blog Truffaut paleo scenester
+            </p>
+            <p>
+              Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone
+              Kickstarter Cares crucifix kitsch narwhal dreamcatcher pickled
+              trust fund selvage art party letterpress Tumblr post-ironic kogi
+              Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore
+              freegan leggings Schlitz chambray organic tousled retro fap squid
+              street art church-key fashion axe Wes Anderson bespoke whatever
+              gentrify banh mi you probably haven't heard of them American
+              Apparel next level pug ugh.
+            </p>
+          </div>
+        </div>
+
+        <div class="arti">
+          <h1 class="title" id="work">Work</h1>
+          <div class="para">
+            <img class="work-cat" src="cat.png" alt="cat" />
+            <div id="cat">
+              <h2>Surf Report</h2>
+              <h4>MERN Stack</h4>
+            </div>
+            <div class="work-other">
+              <div class="other">
+                <img class="other-img" src="led.png" alt="led wall" />
+                <div class="other-p">
+                  <h2>LED Wall</h2>
+                  <h4>Node/IoT</h4>
+                </div>
+              </div>
+
+              <div class="other">
+                <img class="other-img" src="cal.png" alt="calculator" />
+                <div class="other-p">
+                  <h2>Calculator</h2>
+                  <h4>React/Javascript/CSS</h4>
+                </div>
+              </div>
+
+              <div class="other">
+                <img class="other-img" src="puzzel.png" alt="puzzel" />
+                <div class="other-p">
+                  <h2>Pastel Puzzels</h2>
+                  <h4>MERN Stack</h4>
+                </div>
+              </div>
+
+              <div class="other">
+                <img class="other-img" src="run.jpg" alt="Run Buddy" />
+                <div class="other-p">
+                  <h2>Run Buddy</h2>
+                  <h4>HTML/CSS</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <footer>
-      <h1 id="contact">Contact Me</h1>
-      <ul>
-        <li type="none"><a href="mailto:andyloo416@gmail.com">E-mail</a></li>
-        <li type="none">Phone: +1 123-456-7890</li>
-      </ul>
-    </footer>
+
+    <div class="arti">
+      <h2 class="title" id="contact-me">Contact Me</h2>
+      <div class="para">
+        <ul>
+          <li type="none"><a href="mailto:andyloo416@gmail.com">E-mail</a></li>
+          <li type="none">Phone: +1 123-456-7890</li>
+          <li type="none">
+            <a href="https://github.com/andyloo416" target="_blank">GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
